@@ -42,7 +42,9 @@ function WordCounter(props) {
                     receipt_long
                 </span> Paragraph: {paragraph}</span><br />
             </div>
-            <textarea name="input" value={input} cols="60" rows="10" onChange={countWord}></textarea><br />
+            <textarea name="input" value={input} cols="60" rows="10" onChange={countWord}
+            placeholder='Enter/Paste Your Text Here'>
+                </textarea><br />
             <button onClick={() => { setInput(input.toUpperCase()) }}>Click to UPPERCASE</button>
             <button onClick={() => { setInput(input.toLowerCase()) }}>Click to LOWERCASE</button>
         </div>
