@@ -1,0 +1,40 @@
+.container{
+margin:0 auto;
+font-family: sans-serif;
+font-size: 18px;
+padding:0;
+
+}
+h2 {
+    color:rgb(107,59,88);
+}
+.container_count{
+    padding: 10px 0px 30px;
+    margin:10px 30px 50px;
+
+}
+.counter {
+    margin: 20px 10px;
+    padding: 15px 10px 30px;
+    /* background: #7A09BA; */
+    border-radius: 5px;
+    background: -moz-linear-gradient(45deg, #7A09BA 0%, #A4189F 50%, #C92587 100%);
+    background: -webkit-linear-gradient(45deg, #7A09BA 0%, #A4189F 50%, #C92587 100%);
+    background: linear-gradient(45deg, #7A09BA 0%, #A4189F 50%, #C92587 100%);
+    color:#fff;
+    width:20vh;
+}
+textarea{
+    margin: 10px 5px;
+}
+
+button {
+font-family: sans-serif;
+font-size: 15px;
+margin: 10px;
+padding: 10px;
+background-color: rgb(138,43,226);
+border:none;
+border-radius: 5px;
+color:#fff;
+}
